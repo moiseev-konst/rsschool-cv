@@ -3,9 +3,8 @@
 
 ### Contacts
 
-| email | GitHub account|
-|---|---|
-|moiseev.konst@gmail.com|[moiseev-konst](https://github.com/moiseev-konst)|
+email: moiseev.konst@gmail.com   GitHub account: [moiseev-konst](https://github.com/moiseev-konst)
+
 
 ### Personal Information
 
