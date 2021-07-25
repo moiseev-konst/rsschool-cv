@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  justify-content: center;
+
+}
+.triangle {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -80vh;
+  border-bottom: 100vh solid #7dcbff;
+  border-left: 50vh solid transparent;
+  border-right: 50vh solid transparent;
+  width: 100vh;
+  z-index: 3;
+}
+.cv-list {
+  position: absolute;
+  top: 5%;
+  width: 60vh;
+  min-width: 500px;
+  min-height: 700px;
+ 
+  box-shadow: -2vh 2vh 4vh 0px rgba(50, 50, 50, 0.62);
+  background-color: white;
+  padding: 4% 2% 2% 4%;
+  font-size: 0.75em;
+  z-index: 4;
+}
+.cv-block {
+  position: relative;
+  border-left: 2px solid black;
+  margin: 1vh;
+  padding-left: 6vh;
+  z-index: 3;
+  font-family: 'Otomanopee One', sans-serif;
+}
+.name {
+  margin: auto;
+  font-size: 3vh;
+}
+.circle {
+  position: absolute;
+  top: -6vh;
+  left: -6vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+  z-index: 2;
+  border: 2px solid black;
+}
+
+
+.shadow {
+  position: absolute;
+  top: -5vh;
+  left: -5vh;
+  z-index: 1;
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+  background-color: rgb(245, 169, 222);
+}
+
+.contact {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.about {
+  margin-right: 2vh;
+  font-size: 1em;
+  text-align: justify;
+  text-indent: 2vh;
+}
+.skills {
+  margin-bottom: 0px;
+  margin-top: 0%;
+}
+
+.emoji {
+  position: absolute;
+
+  border-radius: 50%;
+  font-size: 4em;
+  margin: 0%;
+}
+hr{
+  padding-left: 0px;
+}
