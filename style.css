@@ -15,6 +15,7 @@ body {
   border-left: 50vh solid transparent;
   border-right: 50vh solid transparent;
   width: 100vh;
+ height: 0px;
   z-index: 3;
 }
 .cv-list {

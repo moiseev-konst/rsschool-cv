@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head >
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>CV Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
     <script src="main.js"></script>
   </head>
 
   <body>
     <div class="triangle"></div>
     <div class="cv-list">
-      <div class="cv-block">
-        <div class="circle"> <p class="emoji">	&#129497;</p></div>
-        <div class="shadow" style="background-color: rgb(121, 217, 255);"></div>
+      <main class="cv-block">
+        <aside class="circle">
+          <img
+            src="55baa7572b02f.png"
+            alt="Foto"
+            style="height: 10vh; border-radius: 50%"
+          />
+        </aside>
+        <aside
+          class="shadow"
+          style="background-color: rgb(121, 217, 255)"
+        ></aside>
         <div>
           <p class="name">Konstantin Moiseev</p>
           <p>Junior Frontend-developer</p>
         </div>
         <hr />
-        <div class="contact">
+        <div >
           <h3 style="margin: 0px">Contact</h3>
-          <p style="margin: 3px">
+          <ul class="contact">
+            <li style="margin: 3px">
             Email:
             <a href="mailto:moiseev.konst@gmail.com">moiseev.konst@gmail.com</a>
-          </p>
-          <p style="margin: 3px">
-            GitHub account: <a href="https://github.com/moiseev-konst"
-              >moiseev-konst</a
-            >
-          </p>
+            </li>
+          <li style="margin: 3px">
+            GitHub account:
+            <a href="https://github.com/moiseev-konst">moiseev-konst</a>
+          </li>
+        </ul>
+          
         </div>
         <hr />
-      </div>
-      
-      <div class="cv-block">
-        <div class="circle"> <p class="emoji">	&#128240;</p></div>
-        <div class="shadow" style="background-color: rgb(135, 255, 185);"></div>
+      </main>
+
+      <section class="cv-block">
+        <aside class="circle"><p class="emoji">&#128240;</p></aside>
+        <aside
+          class="shadow"
+          style="background-color: rgb(135, 255, 185)"
+        ></aside>
         <div class="personal">
-          <div class="about">
+          <article class="about">
             <h3 style="margin: 3px; text-indent: 0px">About me</h3>
             <p style="margin: 3px">
               I have been interested in programming since high school. I used my
@@ -51,7 +68,7 @@
               production tasks. I wrote small programs, modules, macros in VBA
               and C# and also actively set tasks for full-time programmers.
             </p>
-          </div>
+          </article>
           <div class="skills">
             <h3 style="margin: 3px; text-indent: 0px">Skills</h3>
             <ul style="margin: 3px">
@@ -62,11 +79,14 @@
           </div>
         </div>
         <hr />
-      </div>
-      <div class="education, cv-block">
-        <div class="circle"><p class="emoji">	&#128218;</p></div>
-        <div class="shadow" style="background-color: rgb(253, 125, 125);"></div>
+      </section>
+      <section class="education, cv-block">
         <h3>Education</h3>
+        <aside class="circle"><p class="emoji">&#128218;</p></aside>
+        <aside
+          class="shadow"
+          style="background-color: rgb(253, 125, 125)"
+        ></aside>
         <ol>
           <li>
             <strong>BSTU 2012 </strong>
@@ -85,12 +105,14 @@
           </li>
         </ol>
         <hr />
-      </div>
-      <div class="exp, cv-block">
-        <div class="circle"><p class="emoji">	&#128188;</p></div>
-        <div class="shadow" style="background-color: rgb(255, 183, 101);"></div>
-
+      </section>
+      <section class="exp, cv-block">
         <h3>Work Experience</h3>
+        <aside class="circle"><p class="emoji">&#128188;</p></aside>
+        <aside
+          class="shadow"
+          style="background-color: rgb(255, 183, 101)"
+        ></aside>
         <ul>
           <li>2017-present <strong>LLC Сlassic:</strong> EGAIS specialist</li>
           <li>
@@ -104,16 +126,19 @@
           </li>
         </ul>
         <hr />
-      </div>
-      <div class="lang, cv-block">
-        <div class="circle"><p class="emoji">		&#128226;</p></div>
-        <div class="shadow" style="background-color: rgb(183, 120, 255);"></div>
+      </section>
+      <section class="lang, cv-block">
         <h3>Language</h3>
+        <aside class="circle"><p class="emoji">&#128226;</p></aside>
+        <aside
+          class="shadow"
+          style="background-color: rgb(183, 120, 255)"
+        ></aside>
         <ol>
           <li>Russian (native)</li>
           <li>English (A2)</li>
         </ol>
-      </div>
+      </section>
     </div>
   </body>
 </html>
