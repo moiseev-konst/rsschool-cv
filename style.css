@@ -61,6 +61,7 @@ body {
 
 .icon {
     position: relative;
+
     margin: 5px;
     width: 100px;
     height: 100px;
@@ -205,7 +206,7 @@ p {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     top: 0px;
     height: 45px;
