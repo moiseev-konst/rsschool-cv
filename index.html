@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CV Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+
+  <body>
+    <main class="cv-list">
+      <header>
+        <nav id="nav_menu" class="nav_menu">
+          <h2 id="burger" class="burger">&#9776;</h2>
+        </nav>
+      </header>
+      <section class="cv-block">
+        <div class="icon">
+          <figure class="circle">
+            <img src="img\20211009_141919.jpg" alt="foto" />
+          </figure>
+          <div
+            class="shadow"
+            style="background-color: rgb(121, 217, 255)"
+          ></div>
+        </div>
+        <div class="information contact">
+          <div>
+            <h1 id="name" class="name">Konstantin Moiseev</h1>
+            <p>Junior Frontend-developer</p>
+          </div>
+          <hr />
+          <h3>Contact</h3>
+          <p>
+            Email:
+            <a href="mailto:moiseev.konst@gmail.com">moiseev.konst@gmail.com</a>
+          </p>
+          <p>
+            GitHub account:
+            <a href="https://github.com/moiseev-konst">moiseev-konst</a>
+          </p>
+          <p>
+            Telegram:
+            <a href="https://t.me/Kastelfan">@Kastelfan</a>
+          </p>
+          <hr />
+        </div>
+      </section>
+
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <p class="emoji">📰</p>
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(135, 255, 185)"
+          ></div>
+        </div>
+
+        <div id="personal" class="information personal">
+          <article>
+            <h3>About me</h3>
+            I have been interested in programming since high school. I used my
+            knowledge and experience of programming at the university to write
+            term papers. Later at work, I used this knowledge to automate
+            production tasks. I wrote small programs, modules, macros in VBA and
+            C# and also actively set tasks for full-time programmers.
+          </article>
+
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>Basic knowledge: HTML, CSS, JS, VBA, C#</li>
+              <li>CAD Kompas</li>
+              <li>Used to work in a chemical laboratory</li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+      </section>
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <p class="emoji">📚</p>
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(253, 125, 125)"
+          ></div>
+        </div>
+        <div id="education" class="information education">
+          <h3>Education</h3>
+          <ol>
+            <li>
+              <strong>BSTU 2012 </strong>
+              <p>
+                <strong>Specialization:</strong> Chemical Technology of
+                Materials of Quantum and Hardbody Electronics.
+              </p>
+            </li>
+
+            <li>
+              <strong>GSU 2015</strong>
+              <p>
+                <strong>Specialization:</strong> Automated Information
+                Processing Systems
+              </p>
+            </li>
+          </ol>
+          <hr />
+        </div>
+      </section>
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <p class="emoji">💼</p>
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(255, 183, 101)"
+          ></div>
+        </div>
+        <div id="exp" class="information exp">
+          <h3>Work Experience</h3>
+          <ul>
+            <li>2017-present <strong>LLC Сlassic:</strong> EGAIS specialist</li>
+            <li>
+              2014-2017
+              <strong> GPO " BELENERGO" BRANCH "POWER EQUIPMENT PLANT"</strong>:
+              Chemical Engineer
+            </li>
+            <li>
+              2012-2014 <strong> JSC "Gidroprivod" </strong>: Chemical engineer
+              of the central laboratory
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </section>
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <p class="emoji">&lt; &frasl; &gt;</p>
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(183, 120, 255)"
+          ></div>
+        </div>
+
+        <div id="code" class="information code">
+          <h2>My code example</h2>
+          <pre><code class="js">
+function indexEqualsValue(a) {
+    let result = -1
+    let start = 0
+    let end = a.length - 1
+    while (end - start >= 0) {
+        let middle = (end - start) >> 1
+        middle += start
+        if (a[middle] == middle) {
+             result = middle
+        }
+        if (a[middle] >= middle) {
+            end = middle - 1
+        } else {
+            start = middle + 1
+        }
+    }
+    return result
+}
+                </code> 
+ </pre>
+          <hr />
+        </div>
+      </section>
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <img src="img/project.png" alt="logo project" />
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(172, 172, 172)"
+          ></div>
+        </div>
+
+        <div id="project" class="information project">
+          <h2>My project</h2>
+          <a
+            href="https://rolling-scopes-school.github.io/moiseev-konst-JSFEPRESCHOOL/JS_Clock/"
+            target="_blank"
+          >
+            <img src="img/clock.png" alt="image project" />
+          </a>
+          <h4>Used:</h4>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>JS</li>
+          </ul>
+          <hr />
+        </div>
+      </section>
+      <section class="cv-block">
+        <div class="icon">
+          <div class="circle">
+            <p class="emoji">📢</p>
+          </div>
+          <div
+            class="shadow"
+            style="background-color: rgb(255, 120, 244)"
+          ></div>
+        </div>
+        <div id="lang" class="information lang">
+          <h3>Language</h3>
+          <ol>
+            <li>Russian (native)</li>
+            <li>English (A2)</li>
+          </ol>
+        </div>
+      </section>
+      <footer>
+        <h3>2021</h3>
+        <a href="https://github.com/moiseev-konst"
+          ><svg
+=
+            height="32"
+            aria-hidden="true"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="32"
+            data-view-component="true"
+            class="logo octicon octicon-mark-github v-align-middle"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+            ></path></svg
+        ></a>
+      </footer>
+    </main>
+    <script src="index.js"></script>
+
+  </body>
+</html>
+
